@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body{
+    font-family: "Ubuntu", monospace;
+    background-image: url(cielo.png);
+    background-position: center;
+    background-size: cover;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    text-align: center; 
+    border: solid rgb(62, 9, 255);
+    border-width: 8px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+
+}
+h2{
+    color: black;
+    text-align: center;
+    border: solid rgb(62, 9, 255);
+    border-width: 4px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+}
+.contenedor{
+    width: 65%;  
+    margin: 0 auto; 
+    padding: 5px;
+    text-align: center;
+}
+
+.cabecera{
+    text-align: right;
+}
+
+
+.pie_pagina{
+    clear:both;
+    background-color: black;
+    color: gray;
+    padding: 30px;
+    height: 100px;
+    font-family:'Courier New', Courier, monospace ;
+    font: size 14px; ;
+}
+
+.info{
+    float: left;
+    width: 45%;
+}
+
+.rsocial{
+    float: left;
+    width: 45%;
+}
+
+.menu{
+    background-color: #6062ff;
+    padding: 10px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+
+.menu ul li{
+    display: inline;
+    padding: 10px;
+    list-style: none;
+    border-style: solid;
+    border-color: rgb(16, 235, 224);
+    margin-left: 50px;
+    border-radius: 10px;
+    background-color: rgb(47, 1, 90);
+    box-shadow: 12px 5px rgb(61, 57, 57) ;
+}
+
+.menu ul li a{
+    color: white;
+    text-decoration: none ;
+}
+
+/*usando ´seudo clase de css hover reacciona al cursor*/
+.menu ul li a:hover{
+    color: red;
+    font-size: 2em; /*medida relativa para fuentes*/
+}
+
+table,th,tr,td{
+    margin: 0 auto;
+    width: 1000px;
+    background-color: beige;
+    text-align: center;
+    border: solid 2px;
+    border-color: black;
+}
